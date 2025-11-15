@@ -1,0 +1,21 @@
+name: flutter_timezone_observer_example
+description: "Demonstrates how to use the flutter_timezone_observer plugin."
+publish_to: 'none'
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_timezone_observer:
+    path: ../
+
+
+dev_dependencies:
+  very_good_analysis: ^10.0.0 # https://pub.dev/packages/very_good_analysis
+
+flutter:
+  uses-material-design: true
+
