@@ -1,7 +1,7 @@
 name: flutter_timezone_observer
 description: >
   Get and observe the device's IANA timezone. Includes mixins to automatically sync the timezone when the app resumes.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/kalaganov/flutter_timezone_observer
 repository: https://github.com/kalaganov/flutter_timezone_observer
 issue_tracker: https://github.com/kalaganov/flutter_timezone_observer/issues

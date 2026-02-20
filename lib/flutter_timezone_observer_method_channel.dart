@@ -37,9 +37,11 @@ class MethodChannelFlutterTimezoneObserver
     }
   }
 
+  Stream<String>? _cachedStream;
+
   /// A [Stream] that emits the new IANA timezone name whenever
   /// the device's timezone is changed.
   @override
-  Stream<String> get onTimezoneChanged =>
+  Stream<String> get onTimezoneChanged => _cachedStream ??=
       _eventChannel.receiveBroadcastStream().map((event) => '$event');
 }
