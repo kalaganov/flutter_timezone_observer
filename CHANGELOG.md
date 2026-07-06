@@ -1,3 +1,9 @@
+# 1.1.0 (2026-07-06)
+
+### Features
+
+* feat: add Swift Package Manager support for iOS (CocoaPods remains supported)
+
 # 1.0.1 (2026-02-20)
 
 ### Bug Fixes
