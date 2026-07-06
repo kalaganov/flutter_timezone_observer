@@ -18,7 +18,7 @@ void main() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
         .setMockMethodCallHandler(
           methodChannel,
-          (MethodCall methodCall) async {
+          (methodCall) async {
             if (methodCall.method == 'getLocalTimezone') {
               return 'Europe/London';
             }
@@ -33,7 +33,7 @@ void main() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
         .setMockMethodCallHandler(
           methodChannel,
-          (MethodCall methodCall) async {
+          (methodCall) async {
             if (methodCall.method == 'getLocalTimezone') {
               throw PlatformException(
                 code: 'TEST_ERROR',
